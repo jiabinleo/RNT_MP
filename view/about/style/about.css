@@ -1,0 +1,260 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  font-family: "PingFang", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  padding: 0 0.64rem;
+  background: linear-gradient(90deg, #1a9de1, #34bbf0);
+  color: #ffffff;
+  height: 2.304rem;
+  line-height: 2.304rem;
+}
+header .logo-title img {
+  width: 8.10666667rem;
+  height: 2.304rem;
+}
+header .index-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  text-align: right;
+  width: 2.13333333rem;
+  height: 10%;
+  text-align: center;
+}
+header .index-menu .index-menu-top {
+  height: 2.304rem;
+  line-height: 2.00533333rem;
+}
+header .index-menu .index-menu-top img {
+  vertical-align: middle;
+  width: 0.85333333rem;
+  height: 0.72533333rem;
+}
+.mask {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mask .index-menu-bottom {
+  width: 5.33333333rem;
+  height: 5.97333333rem;
+  background-color: #ffffff;
+  float: right;
+  margin-right: 0.64rem;
+  border-radius: 0.10666667rem;
+  margin-top: 1.70666667rem;
+}
+.mask .index-menu-bottom .triangle {
+  margin: 0;
+  display: block;
+  height: 0rem;
+  width: 0rem;
+  margin-top: -0.32rem;
+  float: right;
+  margin-right: 0.256rem;
+  border-width: 0.17066667rem;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+.mask .index-menu-bottom p {
+  text-align: left;
+  height: 1.96266667rem;
+  border-bottom: solid 1px #eeeeee;
+  font-size: 0.59733333rem;
+  line-height: 1.96266667rem;
+  color: #999999;
+}
+.mask .index-menu-bottom p:last-of-type {
+  border: none;
+}
+.mask .index-menu-bottom p img {
+  padding: 0 0.64rem;
+  margin-top: -0.10666667rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  vertical-align: middle;
+}
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 2.304rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#wrapper .iScrollVerticalScrollbar {
+  display: none;
+}
+#wrapper #scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+#wrapper #scroller section {
+  font-family: "微软雅黑", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+#wrapper #scroller section .index-banner {
+  position: relative;
+}
+#wrapper #scroller section .index-banner img {
+  width: 100%;
+}
+#wrapper #scroller section .index-step {
+  margin: 0.64rem;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border-radius: 0.10666667rem;
+  box-shadow: 0rem 0rem 0.32rem 0.10666667rem rgba(51, 51, 51, 0.1);
+}
+#wrapper #scroller section .index-step.paddingBottom30 {
+  padding-bottom: 0.64rem;
+}
+#wrapper #scroller section .index-step.index-stepLast {
+  padding-top: 0.64rem;
+}
+#wrapper #scroller section .index-step .index-step-title {
+  padding: 0.64rem;
+  font-size: 0.896rem;
+  color: #333333;
+  font-weight: lighter;
+  text-align: center;
+}
+#wrapper #scroller section .index-step .index-step-title span {
+  font-size: 0.512rem;
+}
+#wrapper #scroller section .index-step .index-step-img {
+  padding: 0 0.64rem;
+}
+#wrapper #scroller section .index-step .index-step-img img {
+  width: 100%;
+}
+#wrapper #scroller section .index-step .index-step-txt {
+  padding-bottom: 0.64rem;
+}
+#wrapper #scroller section .index-step .index-step-txt p {
+  color: #333333;
+  font-size: 0.512rem;
+  line-height: 1.06666667rem;
+  padding: 0 0.64rem;
+}
+#wrapper #scroller section .index-step .index-step-txt p.about-title {
+  font-size: 0.59733333rem;
+  font-weight: bold;
+}
+#wrapper #scroller section .index-step .index-step-txt.paddingBottom0 {
+  padding-bottom: 0;
+}
+#wrapper #scroller section .index-step .index-wrap {
+  padding: 0rem 1.70666667rem 1.06666667rem 1.70666667rem;
+}
+#wrapper #scroller section .index-step .index-wrap .index-swiper-buttom {
+  background-size: 50%;
+  top: 41%;
+}
+#wrapper #scroller section .index-step .index-wrap .index-swiper-buttom.swiper-button-prev {
+  left: 5%;
+}
+#wrapper #scroller section .index-step .index-wrap .index-swiper-buttom.swiper-button-next {
+  right: 5%;
+}
+#wrapper #scroller section .index-step .index-wrap .swiper-pagination {
+  left: 50%;
+  transform: translateX(-50%);
+}
+#wrapper #scroller section .index-step .index-wrap .swiper-pagination .swiper-pagination-bullet {
+  margin: 0 0.21333333rem;
+  width: 0.256rem;
+  height: 0.256rem;
+  border-radius: 50%;
+}
+#wrapper #scroller section .index-step .index-wrap .swiper-container .swiper-wrapper .swiper-slide h2 {
+  font-size: 0.68266667rem;
+  font-weight: bold;
+  font-style: oblique;
+  line-height: 1.06666667rem;
+  background-image: -webkit-gradient(linear, 0 0, 180 bottom, from(#1a9de1), to(#34bbf0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#wrapper #scroller section .index-step .index-wrap .swiper-container .swiper-wrapper .swiper-slide h3 {
+  font-size: 0.512rem;
+  color: #333333;
+  line-height: 1.06666667rem;
+}
+#wrapper #scroller section .index-step .index-wrap .swiper-container .swiper-wrapper .swiper-slide p {
+  font-size: 0.512rem;
+  color: #999999;
+  float: left;
+  line-height: 1.06666667rem;
+}
+#wrapper #scroller section .about-count {
+  margin: 0.64rem;
+  background-color: #ffffff;
+}
+#wrapper #scroller section .about-count .index-step-title {
+  padding: 0.64rem;
+  font-size: 0.896rem;
+  color: #333333;
+  font-weight: lighter;
+  text-align: center;
+}
+#wrapper #scroller section .about-count .index-step-title span {
+  font-size: 0.59733333rem;
+}
+#wrapper #scroller section .about-count .about-count-inner {
+  overflow: hidden;
+  padding: 0 0.64rem;
+  height: 1.92rem;
+  line-height: 1.92rem;
+}
+#wrapper #scroller section .about-count .about-count-inner .about-count-image {
+  float: left;
+}
+#wrapper #scroller section .about-count .about-count-inner .about-count-image img {
+  width: 1.10933333rem;
+  vertical-align: middle;
+}
+#wrapper #scroller section .about-count .about-count-inner .about-count-txt {
+  float: right;
+}
+#wrapper #scroller section .about-count .about-count-inner .about-count-txt p {
+  font-size: 0.512rem;
+}
+#wrapper #scroller section .footer {
+  margin-top: 0.64rem;
+  background: linear-gradient(90deg, #1a9de1, #34bbf0);
+  color: #ffffff;
+  font-size: 0.512rem;
+  padding: 0.74666667rem 0.64rem;
+}
+#wrapper #scroller section .footer p {
+  line-height: 0.64rem;
+}

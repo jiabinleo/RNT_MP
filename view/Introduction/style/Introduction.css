@@ -1,0 +1,135 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  font-family: "PingFang", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+}
+header {
+  padding: 0 0.64rem;
+  background: linear-gradient(90deg, #1a9de1, #34bbf0);
+  color: #ffffff;
+  height: 2.304rem;
+  line-height: 2.304rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header .logo-title img {
+  width: 8.10666667rem;
+  height: 2.304rem;
+}
+header .index-menu {
+  position: absolute;
+  right: 1.28rem;
+  top: 0;
+  z-index: 10;
+  text-align: right;
+  width: 2.13333333rem;
+  height: 10%;
+  text-align: center;
+}
+header .index-menu .index-menu-top {
+  height: 2.304rem;
+  line-height: 2.00533333rem;
+}
+header .index-menu .index-menu-top img {
+  width: 0.85333333rem;
+  height: 0.72533333rem;
+  vertical-align: middle;
+}
+.mask {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mask .index-menu-bottom {
+  width: 5.33333333rem;
+  height: 5.97333333rem;
+  background-color: #ffffff;
+  float: right;
+  margin-right: 0.64rem;
+  border-radius: 0.10666667rem;
+  margin-top: 1.70666667rem;
+}
+.mask .index-menu-bottom .triangle {
+  margin: 0;
+  display: block;
+  height: 0rem;
+  width: 0rem;
+  margin-top: -0.32rem;
+  float: right;
+  margin-right: 0.256rem;
+  border-width: 0.17066667rem;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+.mask .index-menu-bottom p {
+  text-align: left;
+  height: 1.96266667rem;
+  border-bottom: solid 1px #eeeeee;
+  font-size: 0.59733333rem;
+  line-height: 1.96266667rem;
+  color: #999999;
+}
+.mask .index-menu-bottom p:last-of-type {
+  border: none;
+}
+.mask .index-menu-bottom p img {
+  padding: 0 0.64rem;
+  margin-top: -0.10666667rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  vertical-align: middle;
+}
+section {
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  -moz-transition-duration: 1s;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-duration: 1s;
+  -o-transition-timing-function: linear;
+  padding-top: 2.304rem;
+}
+section .page .page-top {
+  text-align: center;
+  margin: 0.85333333rem;
+}
+section .page .page-top p {
+  font-size: 0.896rem;
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.28rem;
+}
+section .page .page-top p:last-of-type {
+  font-size: 0.55466667rem;
+  color: #999999;
+}
+section .page .page-img {
+  width: 11.392rem;
+  margin: 0 auto;
+}
+section .page .page-img img {
+  width: 100%;
+}
+section .page.page1 {
+  background-image: url("../../../images/Introduction/blue.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 100%;
+}
+section .page.page2 {
+  background-image: url("../../../images/Introduction/gray.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 100%;
+}

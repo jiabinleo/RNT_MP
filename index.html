@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>悦农通，专注农业金融服务</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <script>
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                // 移动
+                // location.href = 'http://www.yuenongtong.com/wap'
+            } else {
+                // PC
+                location.href = "http://www.yuenongtong.com";
+            }
+        }
+        browserRedirect()
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="./images/index/logo_title.png" alt="">
+        </div>
+        <div class="index-menu">
+            <div class="index-menu-top" id="index_menu_top">
+                <img src="./images/index/menu.png" alt="" srcset="">
+            </div>
+        </div>
+    </header>
+    <div class="mask" id="mask">
+        <div class="index-menu-bottom" id="index_menu_bottom">
+            <span class="triangle"></span>
+            <p>
+                <img class="menu1" src="./images/index/menu1.png" alt="首页">首页
+            </p>
+            <p>
+                <a href="./view/about/about.html">
+                    <img class="menu2" src="./images/index/menu2_hide.png" alt="关于我们">关于我们
+                </a>
+            </p>
+            <p>
+                <a href="./view/Introduction/Introduction.html">
+                    <img class="menu3" src="./images/index/menu3_hide.png" alt="功能介绍">功能介绍
+                </a>
+            </p>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="scroller">
+            <section>
+                <div class="index-banner">
+                    <img src="./images/index/banner.png" alt="" srcset="">
+                    <div class="phone android">
+                        <img src="./images/index/android.png" alt="" srcset="">
+                    </div>
+                    <div class="phone ios">
+                        <img src="./images/index/ios.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="index-step">
+                    <div class="index-step-img">
+                        <a id="step1" href="./view/Introduction/Introduction.html">
+                            <img src="./images/index/step1.png" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="index-step">
+                    <div class="index-step-img">
+                        <a id="step2" href="./view/Introduction/Introduction.html">
+                            <img src="./images/index/step2.png" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="index-step">
+                    <div class="index-step-img">
+                        <a href="javascript:;">
+                            <img src="./images/index/step3.png" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="index-step">
+                    <div class="index-step-img">
+                        <a href="javascript:;">
+                            <img src="./images/index/step4.png" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>粤ICP备15002532号 CreditEase 2017-2018</p>
+                    <p>深圳市昆特科技有限公司版权所有</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./js/iscroll.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/tool.js"></script>
+</body>
+
+</html>
